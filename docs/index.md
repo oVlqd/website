@@ -1,7 +1,4 @@
-<head>
-   <title>HTML Backgorund Color</title>
-</head>
-<body style="background-color:grey;">
-   <h1>Products</h1>
-   <p>We have developed more than 10 products till now.</p>
+<body style="background-color:FloralWhite;">
+   <h1>Vlad</h1>
+   <p>test</p>
 </body>
