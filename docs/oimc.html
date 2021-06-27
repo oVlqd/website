@@ -1,1 +1,145 @@
-<p> test </p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+a {
+  color: brown;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul.normal {
+  line-height: 1.5;
+}
+
+p.normal {
+  line-height: 1.3;
+}
+
+body {
+  background-color: FloralWhite;
+  font-family: Arial;
+
+}
+.navbar {
+  width: 100%;
+  background-color: FloralWhite;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: #555;
+  font-size: 24px;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.content {
+  max-width: 680px;
+  margin: auto;
+  background: FloralWhite;
+  padding: 10px;
+}
+
+br {
+  clear: left;
+}
+
+ul {
+  line-height: 1.5;
+}
+
+img {
+  width: 8%;
+  
+}
+</style>
+
+<script type="text/javascript">
+// As soon as the document's structure has been loaded:
+document.addEventListener( "DOMContentLoaded", function() {
+    // For each html elem:
+    elems = document.getElementsByTagName("*"); // OL and UL wanted: chose all (*) here and select later.
+    for ( var e = 0; e < elems.length; e++ ) {
+        // Check if elem is a list (ordered/unordered) and has class name "cols":
+        if ( ( elems[e].tagName == "OL" || elems[e].tagName == "UL" ) && elems[e].className.search("cols") > -1 ) {
+            // Collect list items and number of columns (from the rel attribute):
+            var list = elems[e];
+            var listItems = list.getElementsByTagName("LI");
+            var Ncols = list.getAttribute("rel")*1; // *1 converts rel from string to int.
+            // Determine total number of items, items per column and column width:
+            var Ntotal = listItems.length;
+            var Npercol = Math.ceil( Ntotal/Ncols );
+            var colWidth = Math.floor( 100/Ncols )+"%";
+            // For each column:
+            for ( var c = 0; c < Ncols; c++ ) {
+                // Create column div:
+                var colDiv = document.createElement("DIV");
+                colDiv.style.cssFloat = "left";
+                colDiv.style.width = colWidth;
+                // Add list items to column div:
+                var i_start = c*Npercol;
+                var i_end = Math.min( (c+1)*Npercol, Ntotal );
+                for ( var i = i_start; i < i_end; i++ )
+                    colDiv.appendChild( listItems[0] ); // Using listItems[0] instead of listItems[i], because items are moved to colDiv!
+                // Add column div to list:  
+                list.appendChild( colDiv );
+            }
+        }
+    }
+} );
+</script>
+
+<div class="content">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+  <title>Vlad Spătaru</title>
+</head>
+<body>
+   <h1 style="text-align:center">Vlad Spătaru</h1>
+   <hr>
+   <div class="navbar">
+  <a style="text-decoration:none" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  
+  <a style="text-decoration:none" href="https://artofproblemsolving.com/community/user/738252"><i class="fa fa-cube" aria-hidden="true"></i> AoPS</a> 
+  <a style="text-decoration:none" href="oimc.html"><i class="fa fa-trophy" aria-hidden="true"></i> OIMC</a>
+  <a style="text-decoration:none" href="work.html"><i class="fa fa-file-text" aria-hidden="true"></i> Work</a> 
+   </div>
+   <hr>
+   <h2>The Online International Mathematical Cup</h2>
+   <p class="normal">The Online International Mathematical Cup is an annual IMO type contest. It is organised by Vlad Spătaru with the help of the Romanian Mathematical Society and the Gaussian Curvature team. The complete staff list of OIMC is:</p>
+	
+   <ul class="cols" rel="3">
+    <li>Vlad Spătaru – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ro.svg"></li>
+    <li>Agamjeet Singh – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+    <li>Amir Ghavi – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ir.svg"></li>
+    <li>Aritra Mondal – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+    <li>Arkan Manva – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+    <li>Aryan Amin – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+    <li>Atul Nadig – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+    <li>Bora Olmez – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ch.svg"></li>
+    <li>Dorlir Ahmeti – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/xk.svg"></li>
+    <li>Fedir Yudin – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/ua.svg"></li>
+    <li>Francisco Moreira – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/br.svg"></li>
+    <li>GGHX – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/sg.svg"></li>
+    <li>i3435 – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg"></li>
+    <li>Orestis Lignos – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/gr.svg"></li>
+    <li>Starchan – <img src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg"></li>
+   </ul>
+    
+	<br>
+    <p class="normal">test</p>
+
+   <hr>
+</body>
+</div>
