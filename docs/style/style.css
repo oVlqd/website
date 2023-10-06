@@ -18,17 +18,17 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 165% 'century gothic', arial, sans-serif;
+{ font: normal 165% arial, sans-serif;
   color: #B60000;
   margin: 0 0 14px 0;
   padding: 10px 0 5px 0;}
 
 h2
-{ font: normal 165% 'century gothic', arial, sans-serif;
+{ font: normal 165% arial, sans-serif;
   color: #000000;}
 
 h3
-{ font: normal 165% 'century gothic', arial, sans-serif;
+{ font: normal 165% arial, sans-serif;
   color: #000000;}
 
 h4, h5, h6
@@ -96,7 +96,7 @@ ol li
 
 #header
 { background: transparent;
-  height: 100px;}
+  height: 170px;}
 
 #logo
 { width: 860px;
