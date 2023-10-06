@@ -19,7 +19,7 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 165% 'century gothic', arial, sans-serif;
-  color: #2DB8CD;
+  color: #000000;
   margin: 0 0 14px 0;
   padding: 10px 0 5px 0;}
 
@@ -46,7 +46,7 @@ h6
 a, a:hover
 { outline: none;
   text-decoration: underline;
-  color: #A4AA04;}
+  color: #000080;}
 
 a:hover
 { text-decoration: none;}
@@ -108,12 +108,12 @@ ol li
 #logo h1
 { padding: 24px 0 0 0;
   margin: 0;
-  color: #FFF;}
+  color: #000000;}
 
 #logo h2
 { font-size: 120%;
   padding: 4px 0 0 0;
-  color: #A8AA94;}
+  color: #000000;}
 
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
