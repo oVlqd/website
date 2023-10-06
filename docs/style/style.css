@@ -19,13 +19,13 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 165% 'century gothic', arial, sans-serif;
-  color: #000000;
+  color: #B60000;
   margin: 0 0 14px 0;
   padding: 10px 0 5px 0;}
 
 h2
 { font: normal 165% 'century gothic', arial, sans-serif;
-  color: #B60000;}
+  color: #000000;}
 
 h3
 { font: normal 165% 'century gothic', arial, sans-serif;}
@@ -95,7 +95,7 @@ ol li
 
 #header
 { background: transparent;
-  height: 170px;}
+  height: 150px;}
 
 #logo
 { width: 860px;
@@ -117,14 +117,14 @@ ol li
 
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #000000;
   text-decoration: none;}
 
 #logo h1 a .logo_colour
-{ color: #888;}
+{ color: #000000;}
 
 #logo a:hover .logo_colour
-{ color: #FFF;}
+{ color: #000000;}
 
 #menubar
 { height: 24px;
