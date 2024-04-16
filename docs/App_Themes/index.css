@@ -1,0 +1,101 @@
+/*  *  *  *  *  *  *  *  *  *  *  *
+
+	layout
+
+ *  *  *  *  *  *  *  *  *  *  *  */
+
+#header {
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 6.5em;
+	z-index: 5;
+	border-bottom: 1px solid #BEB761;
+}
+
+#main {
+	position: absolute;
+	overflow: auto;
+	top: 6.7em;
+	right: 0;
+	bottom: 2em;
+	left: 0em;
+	margin: 0;
+	padding: 0;
+	z-index: 3;
+	text-align: center;
+}
+
+* html #main {
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	z-index: 3;
+	border-top: 8.2em solid #FFFFF2;
+	border-bottom: 2em solid #FFFFF2;
+	border-left: 0px;
+}
+
+#header #sub {
+	position: relative;
+	
+}
+
+#header #menu {
+	white-space: nowrap;
+	height: 1.4em;
+	padding: 0.4em 0 0.2em 0;
+	text-align: center;
+	color : #0F3678; 
+}
+
+#header #menu a {
+	padding: 0em 0.3em;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: 1.15em;
+}
+
+
+.intro {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #FCFCD9;
+	padding: 0.8em;
+	border: 1px solid #BEB761;
+	text-align: left;
+	max-width: 900px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.parent {
+	text-align: center;
+  }
+  
+.child {
+	display: inline-block;
+	padding: 0em 0.5em 0em 0.5em;
+	vertical-align: top;
+  }
+
+/*
+.intro div {
+	background-color: #FCFCD9;
+	padding: 0.8em;
+	border: 1px solid #BEB761;
+	font-size: 1em;
+	text-align: left;
+}
+*/
+
+    
