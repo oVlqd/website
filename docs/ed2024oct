@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" /><link href="App_Themes/logo.ico" rel="shortcut icon" type="image/x-icon" /><link href="App_Themes/design.css" rel="stylesheet" type="text/css" /><link href="App_Themes/index.css" rel="stylesheet" type="text/css" /><link href="App_Themes/print.css" rel="stylesheet" type="text/css" media="print" /><title>
+	The Golden Digits
+</title></head>
+<body>
+<div id="header">
+    <div id="h1">
+        <h1>The Golden Digits Contest</h1>
+    </div>
+
+	<div id="menu">
+        <a id="ctl00_HyperLink_info" href="index.html">Home page</a> &bull;
+        <a id="ctl00_HyperLink_editii" href="ed2024oct.html">Past editions</a>
+	</div>
+</div>
+
+    <div id="main">
+
+        <h2><a href="ed2024may.html" class="pointer">&#9668;</a> 5th Edition - October 2024 <a href="" class="pointer">&#9658;</a></h2>
+
+        <h2></h2>
+
+        <div class="intro">
+        
+        </div>    
+        <br />
+            <div class='child'><table><thead><tr><th>Documents</th></tr></thead><tbody>
+                <tr><td align="center"><a href="problems2024may.pdf">Problems</a></td></tr>
+                <tr class="imp"><td align="center"><a href="solutions2024may.pdf">Solutions</a></td></tr>
+                </tbody></table></div>
+          </div>
+
+    </div>
+
+
+    <div id="footer">
+        <b>E-mail:</b> 
+        <a href="mailto:inscriere.concurs@asociatiavreausainvat.ro">inscriere.concurs@asociatiavreausainvat.ro</a> 
+        &nbsp; &bull; &nbsp;
+        Copyright © 2024 The Golden Digits
+        </div>
+        </body>
+        </html>
